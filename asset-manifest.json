@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/brainkwik/static/css/main.c1897f62.chunk.css",
+    "main.js": "/brainkwik/static/js/main.116f9308.chunk.js",
+    "main.js.map": "/brainkwik/static/js/main.116f9308.chunk.js.map",
+    "runtime-main.js": "/brainkwik/static/js/runtime-main.3a1becb8.js",
+    "runtime-main.js.map": "/brainkwik/static/js/runtime-main.3a1becb8.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/brainkwik/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.57f217e3.chunk.js": "/brainkwik/static/js/2.57f217e3.chunk.js",
+    "static/js/2.57f217e3.chunk.js.map": "/brainkwik/static/js/2.57f217e3.chunk.js.map",
+    "index.html": "/brainkwik/index.html",
+    "precache-manifest.ae2e5c9210014c999603efcbe69eefb4.js": "/brainkwik/precache-manifest.ae2e5c9210014c999603efcbe69eefb4.js",
+    "service-worker.js": "/brainkwik/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/brainkwik/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.c1897f62.chunk.css.map": "/brainkwik/static/css/main.c1897f62.chunk.css.map",
+    "static/js/2.57f217e3.chunk.js.LICENSE.txt": "/brainkwik/static/js/2.57f217e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a1becb8.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.57f217e3.chunk.js",
+    "static/css/main.c1897f62.chunk.css",
+    "static/js/main.116f9308.chunk.js"
+  ]
+}
