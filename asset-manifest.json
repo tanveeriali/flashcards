@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/flashcards/static/css/main.bdfbfded.chunk.css",
+    "main.css": "/flashcards/static/css/main.2d32f3ea.chunk.css",
     "main.js": "/flashcards/static/js/main.d0ac1de0.chunk.js",
     "main.js.map": "/flashcards/static/js/main.d0ac1de0.chunk.js.map",
     "runtime-main.js": "/flashcards/static/js/runtime-main.1952d549.js",
@@ -9,17 +9,17 @@
     "static/js/2.14334351.chunk.js": "/flashcards/static/js/2.14334351.chunk.js",
     "static/js/2.14334351.chunk.js.map": "/flashcards/static/js/2.14334351.chunk.js.map",
     "index.html": "/flashcards/index.html",
-    "precache-manifest.fb0d523d359a8fa88bfc5168408e3684.js": "/flashcards/precache-manifest.fb0d523d359a8fa88bfc5168408e3684.js",
+    "precache-manifest.e53a465f0febeb486da21f1e0b487da9.js": "/flashcards/precache-manifest.e53a465f0febeb486da21f1e0b487da9.js",
     "service-worker.js": "/flashcards/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/flashcards/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.bdfbfded.chunk.css.map": "/flashcards/static/css/main.bdfbfded.chunk.css.map",
+    "static/css/main.2d32f3ea.chunk.css.map": "/flashcards/static/css/main.2d32f3ea.chunk.css.map",
     "static/js/2.14334351.chunk.js.LICENSE.txt": "/flashcards/static/js/2.14334351.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1952d549.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.14334351.chunk.js",
-    "static/css/main.bdfbfded.chunk.css",
+    "static/css/main.2d32f3ea.chunk.css",
     "static/js/main.d0ac1de0.chunk.js"
   ]
 }
