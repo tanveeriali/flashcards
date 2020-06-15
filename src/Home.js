@@ -20,31 +20,33 @@ export default class Home extends React.Component {
   }
   componentDidMount() {
     this.unregisterAuthObserver = firebase.auth().onAuthStateChanged((user) => {
-      this.unsubscribe = db
-        .collection("defaultcards")
-        .onSnapshot((snapshot) => {
-          this.setState({
-            cardSetsDefault: snapshot.docs,
-          });
+      this.default = db.collection("defaultcards").onSnapshot((snapshot) => {
+        this.setState({
+          cardSetsDefault: snapshot.docs,
         });
+      });
 
       this.setState({ isSignedIn: !!user }, () => {
         const uid = firebase.auth().currentUser.uid;
-        db.collection("users")
+        this.yourCards = db
+          .collection("users")
           .doc(uid)
           .collection("yourCards")
-          .get()
-          .then((cardsets) => {
+          .onSnapshot((snapshot) => {
+            console.log(1);
             this.setState({
-              yourCards: cardsets.docs,
+              yourCards: snapshot.docs,
             });
           });
       });
     });
   }
   componentWillUnmount() {
-    if (this.unsubscribe) {
-      this.unsubscribe();
+    if (this.default) {
+      this.default();
+    }
+    if (this.yourCards) {
+      this.yourCards();
     }
   }
   render() {
